@@ -244,6 +244,10 @@ check Example->TimeSeriesLineChart for details.
 
 ## Notice
 
+**Custom Large value formatter(iOS Only)**
+
+1. LargeValueFormatter for iOS will accept precision as a prop(Default precision -> 1).
+2. Precision won't be applied if the value is Multiple of 1000,100000,1B,1T and Less than 1000
 **Several settings are removed.**
 
 1. fontFamily & fontStyle
